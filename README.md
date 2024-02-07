@@ -47,7 +47,9 @@ The oscilloscope has a trigger and only collects data when triggered until the i
 
 ## License
 RapidDAQ is fully open source.
+
 All software, hardware and documentation unless otherwise noted, is licensed under CC BY-SA 4.0.
+
 The host software is based on the brilliantly written HackRF source code because my intention was to maintain compatibility with the Gnu Radio project. [HackRF](https://github.com/greatscottgadgets/hackrf/)
 
 ## Website
