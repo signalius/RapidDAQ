@@ -35,11 +35,14 @@ The maximum sampling speed of the ADC is 80MSps using a single channel. All anal
  * Windows 
  * MacOS (not tested)
  
+### Mechanical
+ * PCB Size: 85 x 56 mm
+ * Mounting holes the same as in RapsberryPi
+ 
 The library uses libusb for communication, so any system that have this library should be compatible. 
 
 ## Why is RapidDAQ not a HAT for the RaspberryPI?
-
-The USB HS interface, which offers data transfer rates as high as 480 Mbps, enables fast data exchange and does not occupy our expansion slots so the RaspberryPi can be used in parallel with other extensions. The Raspberry Pi has up to 4 USB slots so we can connect up to 4 RapidDAQ devices. The use of USB also assures us that RapidDaq can be used without any modifications with other devices including a PC (Linux and Windows operating systems have been tested).
+The RapidDAQ's pcb size is the same as the RapsberryPI 4/5. The holes are also compatible so it is possible to mount the RapidDAQ as a HAT but a USB connection will of course still be required. The USB HS interface, which offers data transfer rates as high as 480 Mbps, enables fast data exchange and does not occupy our expansion slots so the RaspberryPi can be used in parallel with other extensions. The Raspberry Pi has up to 4 USB slots so we can connect up to 4 RapidDAQ devices. The use of USB also assures us that RapidDaq can be used without any modifications with other devices including a PC (Linux and Windows operating systems have been tested).
 
 ## What is the difference between DAQ and Scope?
 
