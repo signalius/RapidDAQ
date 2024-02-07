@@ -30,7 +30,7 @@ The maximum sampling speed of the ADC is 80MSps using a single channel. All anal
 
 ### OS compatibility
 
- * RapsberryPI (tested on verion 4 and 5)
+ * RapsberryPI (tested on version 4 and 5)
  * Linux (tested on Ubuntu 22.04)
  * Windows 
  * MacOS (not tested)
