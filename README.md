@@ -33,7 +33,7 @@ The maximum sampling speed of the ADC is 80MSps 12 bit using a single channel. H
 
 * Piezo input with TX/RX switch
 * Envelope detector algorithm
-* Filterin and decimation algorithm
+* Filtering and decimation algorithm
 
 ### OS compatibility
 
