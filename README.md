@@ -37,7 +37,7 @@ The maximum sampling speed of the ADC is 80MSps using a single channel. All anal
  
 The library uses libusb for communication, so any system that includes this library should be compatible. 
 
-## Why is RapidDaq not a HAT for the Rpi?
+## Why is RapidDAQ not a HAT for the RaspberryPI?
 
 The USB HS interface, which offers data transfer rates as high as 480 Mbps, enables fast data exchange and does not occupy our expansion slots so the RaspberryPi can be used in parallel with other extensions. The Raspberry Pi has up to 4 USB slots so we can connect up to 4 RapidDAQ devices. The use of USB also assures us that RapidDaq can be used without any modifications with other devices including a PC (Linux and Windows operating systems have been tested).
 
@@ -48,6 +48,7 @@ The oscilloscope has a trigger and only collects data when triggered until the i
 ## License
 RapidDAQ is fully open source.
 All software, hardware and documentation unless otherwise noted, is licensed under CC BY-SA 4.0.
+The host software is based on the brilliantly written HackRF source code because my intention was to maintain compatibility with the Gnu Radio project. [HackRF](https://github.com/greatscottgadgets/hackrf/)
 
 ## Website
 [Manual and store](https://gepard.space/)
