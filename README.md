@@ -7,26 +7,26 @@ RapidDAQ is a completely open source Data Aquistion Platform that includes few e
 
 ### Analog input specification
 
-* ADC: 80MSps 12 bits 
-* 1 x 1 MOhm 40MSps analog input with standard BNC connector
-* 1 x 50 ohm 40MSps analog input with SMA connector
-* 1 x Piezo 20MSps input with SMA connector
+ * ADC: 3 ch, 80MSps, 12 bits 
+ * 1 x 1 MOhm 40MSps analog input with standard BNC connector
+ * 1 x 50 ohm 40MSps analog input with SMA connector
+ * 1 x Piezo 20MSps input with SMA connector
 
 The maximum sampling speed of the ADC is 80MSps using a single channel. All analogue inputs can operate simultaneously, but at reduced speed.
 
 ### Digital input specification
 
-* 8 x general input/output ports
-* Compatible with 3.3V or 5 V
-* Can be mapped as SPI, UART or special Timer in/out.
+ * 8 x general input/output ports
+ * Compatible with 3.3V or 5 V
+ * Can be mapped as SPI, UART or special Timer in/out.
 
 
 ### Interface
 
-* USB C HS 480Msps
-* I2C port
-* SPI (using GPIO pins)
-* UART (using GPIO pins)
+ * USB C HS 480Msps
+ * I2C port
+ * SPI (using GPIO pins)
+ * UART (using GPIO pins)
 
 ### OS compatibility
 
@@ -35,7 +35,7 @@ The maximum sampling speed of the ADC is 80MSps using a single channel. All anal
  * Windows 
  * MacOS (not tested)
  
-The library uses libusb for communication, so any system that includes this library should be compatible. 
+The library uses libusb for communication, so any system that have this library should be compatible. 
 
 ## Why is RapidDAQ not a HAT for the RaspberryPI?
 
@@ -50,7 +50,7 @@ RapidDAQ is fully open source.
 
 All software, hardware and documentation unless otherwise noted, is licensed under CC BY-SA 4.0.
 
-The host software is based on the brilliantly written HackRF source code because my intention was to maintain compatibility with the Gnu Radio project. [HackRF](https://github.com/greatscottgadgets/hackrf/)
+The host software is derived from the brilliantly written HackRF source code, as my intention was to maintain compatibility with the Gnu Radio project. [HackRF github repo](https://github.com/greatscottgadgets/hackrf/)
 
 ## Website
 [Manual and store](https://gepard.space/)
